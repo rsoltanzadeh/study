@@ -48,12 +48,6 @@ useSeoMeta({
       <template #title>
         <MDC :value="page.hero.title" />
       </template>
-
-      <MDC
-        :value="page.hero.code"
-        tag="pre"
-        class="prose prose-primary dark:prose-invert mx-auto"
-      />
     </ULandingHero>
 
     <ULandingSection
